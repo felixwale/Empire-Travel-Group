@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    
+}
+
+.signHead{
+  display: flex;
+  align-items: center;
+}
+
+.signHead2{
+    display: flex;
+    margin: 0 4em;
+    align-items: center;
+}
+
+.signHead2 h2{
+
+  margin-left: 0.5em;
+}
+.txt1{
+
+    width: 24.81em;
+    border-radius: 5px;
+    height: 2.75em;
+    
+}
+
+
+.sign_in_container{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 5em;
+    align-items: center;
+}
+
+.signUp_form{
+
+    /* width: 12.4em; */
+    margin-top: 2em;
+}
+
+.other{
+
+    margin: 1em 0;
+}
+
+.other p{
+
+    display: none;
+}
+img{
+
+    max-width: 100%;
+}
+
+.Sign_in_check {
+  
+  width: 16.5em;
+  margin-bottom: 1em;
+}
+
+.Sign_in_check span{
+    margin-left: 0.8em;
+}
+
+.signUp_btn{
+    background: #FD5308;
+        border-radius: 5px;
+        width: 10.82em;
+        height: 2.8em;
+        color: #fff; 
+        margin-bottom: 1em;
+}
+.editTxt{
+    color: #FD5308;
+}
+
+.editP{
+        width: 15.31em;
+     
+}
+
+@media screen and (max-width : 810px) {
+
+    .sign_in_container{
+
+       flex-wrap: wrap;
+    }
+}

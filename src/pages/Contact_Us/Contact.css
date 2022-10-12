@@ -1,0 +1,133 @@
+*{
+
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+.contact_P{
+
+    text-align: center;
+    color: #2A2A2A;
+    font-family: 'Poppins', sans-serif;
+        font-size: 2.25em;
+        font-weight: 300;
+        line-height: 2.75em;
+     
+}
+
+.contact_addr h4 li{
+
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        color: #2A2A2A;
+       
+}
+
+.contact_addr h3{
+
+
+margin-bottom: 2.5em;
+}
+
+.contact_addr {
+
+margin-bottom: 18em;
+margin-left: 5em;
+
+    
+}
+
+.contact_addr li{
+    list-style: none;
+    margin: 2em 0;
+}
+
+.contact_us{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.contact_form{
+
+    margin-right: 4em;
+}
+
+.contact_form form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact_form h3{
+
+    text-align: center;
+    margin: 2em 0;
+}
+
+.send{
+
+    background-color: #FD5308;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 7.68em;
+    height: 3.12em;
+    margin: 1em; 
+}
+
+.send input{
+
+    border: none;
+    background: #FD5308;
+    width: 3.68em;
+    height: 2.12em;
+  
+    
+}
+
+.main-input input{
+
+    background: #EFEEEE;
+        border-radius: 5px;
+        width: 31.68em;
+            height: 3.12em;
+            margin: 1em;
+}
+
+.textarea textarea{
+
+    background: #EFEEEE;
+        border-radius: 5px;
+        width: 31.68em;
+            height: 11em;
+}
+
+
+@media screen and (max-width: 810px) {
+    
+
+    .contact_us{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .contact_form {
+
+      margin-bottom: 20em;
+    }
+}

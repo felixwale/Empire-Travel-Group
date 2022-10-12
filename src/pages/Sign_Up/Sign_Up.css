@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signHead {
+    display: flex;
+    align-items: center;
+}
+
+.signHead2 {
+    display: flex;
+    margin: 0 4em;
+    align-items: center;
+}
+
+.main-form{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 2em;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.formB{
+margin: 2em ;
+}
+
+.formB  h3{
+
+    margin-bottom: 5em;
+    padding-left: 1.2em;
+}
+.registerTxt{
+
+    color: #FD5308;
+}
+
+.loginTxt{
+background-color: #FD5308;
+color: #fff;
+width: 14.81em;
+height: 1.87em;
+
+}
+
+.form-control{
+
+    margin-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
+        font-style: normal;
+}
+
+.form-control input{
+
+    width: 30.81em;
+    height: 3.75em;
+    color: black;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.form-control label{
+
+    font-family: 'Poppins', sans-serif;
+        font-style: normal;
+}
+.loginTxt{
+
+    margin-top: 1em;
+}
+
+.rememberTxt{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.fb-logo{
+
+    background-color: #527BCB;
+    border-radius: 5px;
+    width: 13em;
+    height: 1.81em;
+    text-align: start;
+    margin-left: 0.5em;
+}
+
+
+.GG-logo{
+
+background: #FFFFFF;
+    box-shadow: 0px 4px 40px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:  flex-start;
+    width: 13em;
+    height: 1.68em;
+    color: #2A2A2A;
+}
+
+.orTxt{
+
+    color: rgba(42, 42, 42, 0.5);
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 139.5%;
+         text-align: center;
+         display: flex;
+}          
+
+ .line1 {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-right: 2.em;
+ }
+
+ .line {
+
+     border: 1px solid #2A2A2AB2;
+     flex: 0 1 100px;
+ }
+
+.fb{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherLOg input{
+
+    width: 22.81em;
+        height: 2.75em;
+        color: #fff;
+      
+        border-radius: 5px;
+        margin-top: 1em;
+        font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+}
+
+@media screen and (max-width : 810px) {
+    
+
+    .main-form{
+
+        flex-wrap: wrap;
+    }
+}

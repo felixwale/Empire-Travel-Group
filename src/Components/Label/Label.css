@@ -1,0 +1,61 @@
+img{
+    max-width: 100%;
+}
+.card-container{
+ position: relative;
+ transition-property: background-color, font-family, border-radius;
+ transition-duration: 0.1s;
+ transition-timing-function: ease-in-out;
+}
+
+.card-container:hover{
+
+  background-color: #fd5308;
+  border-radius: 50px;
+
+
+}
+.sub-container{
+    width: 8.94em;
+    padding: 5px 5px;
+    display: flex;
+    right: 5px;
+    background-color: #fff;
+    color: #fd5308;
+    border-radius: 5px;
+    position: absolute;
+    top: 6.25em;
+    right: 20px;
+    justify-content: center;
+  transition-property:  border-radius;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.sub-container:hover{
+
+  border-radius: 50px;
+}
+
+.sub-container p{
+
+  transition-property: background-color, font-family, border-radius;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.sub-container p:hover{
+
+  font-family: cursive;
+  background-color: black;
+}
+
+.main_img{
+
+  margin: 5.62em 0.62em;
+
+  
+}
+
